@@ -1,0 +1,2 @@
+This folder stores uploaded menu item images.
+Make sure this folder has write permissions (chmod 777 on Linux).
