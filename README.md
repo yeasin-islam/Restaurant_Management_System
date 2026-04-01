@@ -118,7 +118,7 @@ http://localhost/RestaurantManagementSystem/
 - [x] Add items to cart
 - [x] Update cart quantities
 - [x] Remove items from cart
-- [x] Checkout with delivery address
+- [ ] Checkout with delivery address
 - [x] Order history with status tracking
 - [x] Book table reservations
 - [x] Submit ratings and feedback (1-5 stars)
