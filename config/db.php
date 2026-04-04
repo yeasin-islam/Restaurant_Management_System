@@ -1,36 +1,22 @@
 <?php
-/**
- * Database Configuration File
- * This file handles the database connection for the Restaurant Management System
- * 
- * Instructions:
- * 1. Start XAMPP and enable Apache and MySQL
- * 2. Import rms.sql file from database folder into phpMyAdmin
- * 3. Update the credentials below if needed
- */
 
 // Database Configuration
-$db_host = "localhost";      // Database host (usually localhost)
-$db_user = "root";           // Database username (default is root for XAMPP)
-$db_pass = "";               // Database password (default is empty for XAMPP)
-$db_name = "rms_db";         // Database name
+$db_host = "localhost";     
+$db_user = "root";           
+$db_pass = "";               
+$db_name = "rms_db";
 
 // Create database connection
 $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 
 // Check if connection was successful
 if (!$conn) {
-    // If connection fails, show error message and stop
     die("Connection failed: " . mysqli_connect_error());
 }
 
 // Set character set to UTF-8 for proper text handling
 mysqli_set_charset($conn, "utf8");
 
-/**
- * Start session if not already started
- * Sessions are used to store user login information
- */
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }

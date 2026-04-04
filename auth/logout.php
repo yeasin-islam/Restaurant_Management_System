@@ -1,9 +1,4 @@
 <?php
-/**
- * Logout Page
- * Handles user logout by destroying the session
- * Redirects to home page after logout
- */
 
 // Start session if not already started
 session_start();

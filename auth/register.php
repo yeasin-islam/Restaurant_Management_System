@@ -1,9 +1,4 @@
 <?php
-/**
- * Registration Page
- * Handles new user registration
- * Creates user accounts with hashed passwords
- */
 
 // Include database configuration
 require_once '../config/db.php';

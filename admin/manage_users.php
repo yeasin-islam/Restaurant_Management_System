@@ -1,9 +1,4 @@
 <?php
-/**
- * Manage Users Page
- * Admin can view all registered users
- * Shows user details and their order history summary
- */
 
 // Include database configuration
 require_once '../config/db.php';

@@ -1,8 +1,4 @@
 <?php
-/**
- * Manage Feedback Page
- * Admin can view all customer feedback and ratings
- */
 
 // Include database configuration
 require_once '../config/db.php';

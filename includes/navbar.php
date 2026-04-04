@@ -1,12 +1,5 @@
 <?php
 
-/**
- * Navigation Bar Component
- * This file contains the main navigation menu
- * It is included in all pages for consistent navigation
- */
-
-// Determine the base path based on current directory
 // This helps with relative URLs when in subdirectories
 $base_path = '';
 $current_dir = basename(dirname($_SERVER['PHP_SELF']));
@@ -19,9 +12,7 @@ if ($current_dir == 'admin' || $current_dir == 'user' || $current_dir == 'auth')
     <div class="nav-container">
         <!-- Logo and Brand Name -->
         <a href="<?php echo $base_path; ?>index.php" class="nav-logo">
-            <!-- Image logo -->
             <img src="<?php echo $base_path; ?>assets/images/favicon.png" alt="Delicious Bites Logo" class="logo-icon" style="height:50px; width:auto;">
-            <!-- Brand text (optional) -->
             <span class="logo-text">Delicious Bites</span>
         </a>
 

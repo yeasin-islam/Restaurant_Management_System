@@ -1,9 +1,4 @@
 <?php
-/**
- * User Profile Page
- * Allows users to view and update their profile information
- * Includes password change functionality
- */
 
 // Include database configuration
 require_once '../config/db.php';

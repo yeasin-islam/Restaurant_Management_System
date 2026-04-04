@@ -1,9 +1,4 @@
 <?php
-/**
- * Footer Component
- * Contains the website footer with contact info and links
- * This is included at the bottom of all pages
- */
 
 // Determine base path
 $base_path = '';

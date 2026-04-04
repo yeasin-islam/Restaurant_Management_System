@@ -1,9 +1,4 @@
 <?php
-/**
- * Manage Menu Page
- * Admin can add, edit, delete menu items
- * Includes image upload functionality
- */
 
 // Include database configuration
 require_once '../config/db.php';

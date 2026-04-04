@@ -1,10 +1,5 @@
 <?php
 
-/**
- * Login Page
- * Handles user and admin authentication
- */
-
 session_start();
 
 // Include database configuration

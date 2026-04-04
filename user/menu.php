@@ -1,9 +1,4 @@
 <?php
-/**
- * Menu Page
- * Displays all available menu items
- * Users can search, filter by category, and add items to cart
- */
 
 // Include database configuration
 require_once '../config/db.php';

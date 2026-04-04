@@ -38,7 +38,7 @@ INSTALLATION INSTRUCTIONS
      * DB_NAME = "restaurant_db"
 
    Step 5: Access the Application
-   - Open browser and go to: http://localhost/RestaurantManagementSystem/
+   - Open browser and go to:  
 
 3. DEFAULT ADMIN CREDENTIALS:
    - Email: admin@restaurant.com

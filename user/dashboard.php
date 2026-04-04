@@ -1,8 +1,4 @@
 <?php
-/**
- * User Dashboard Page
- * Shows overview of user's orders, reservations, and quick actions
- */
 
 // Include database configuration
 require_once '../config/db.php';

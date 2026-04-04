@@ -1,14 +1,6 @@
-/**
- * Restaurant Management System - Main JavaScript File
- * Contains basic interactivity and form validation
- */
-
 // Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
-    
-    // ========================================
-    // Mobile Navigation Toggle
-    // ========================================
+
     const navToggle = document.getElementById('navToggle');
     const navMenu = document.getElementById('navMenu');
     
@@ -25,9 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // ========================================
-    // Auto-hide Alerts
-    // ========================================
     const alerts = document.querySelectorAll('.alert');
     
     alerts.forEach(function(alert) {
@@ -40,10 +29,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 300);
         }, 5000);
     });
-    
-    // ========================================
-    // Form Validation
-    // ========================================
     
     // Registration form validation
     const registerForm = document.querySelector('.auth-form');
@@ -66,9 +51,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
-    // ========================================
-    // Quantity Input Controls
-    // ========================================
     const quantityInputs = document.querySelectorAll('.quantity-input');
     
     quantityInputs.forEach(function(input) {
@@ -82,17 +64,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // ========================================
-    // Confirm Delete Actions
-    // ========================================
     const deleteButtons = document.querySelectorAll('[onclick*="confirm"]');
     
-    // Delete confirmations are handled inline with onclick
-    // This is for any additional delete button handling
-    
-    // ========================================
-    // Star Rating Hover Effect
-    // ========================================
     const starRating = document.querySelector('.star-rating');
     
     if (starRating) {
@@ -124,9 +97,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // ========================================
-    // Smooth Scroll for Anchor Links
-    // ========================================
     const anchorLinks = document.querySelectorAll('a[href^="#"]');
     
     anchorLinks.forEach(function(link) {
@@ -145,9 +115,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // ========================================
-    // Image Lazy Loading Fallback
-    // ========================================
     const images = document.querySelectorAll('img');
     
     images.forEach(function(img) {
@@ -159,9 +126,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // ========================================
-    // Date Input Min Date (Today)
-    // ========================================
     const dateInputs = document.querySelectorAll('input[type="date"]');
     const today = new Date().toISOString().split('T')[0];
     
@@ -171,9 +135,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // ========================================
-    // Price Formatting
-    // ========================================
     const priceInputs = document.querySelectorAll('input[name="price"]');
     
     priceInputs.forEach(function(input) {
@@ -184,16 +145,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // ========================================
     // Print Order Functionality
-    // ========================================
     window.printOrder = function(orderId) {
         window.print();
     };
     
-    // ========================================
     // Loading State for Forms
-    // ========================================
     const forms = document.querySelectorAll('form');
     
     forms.forEach(function(form) {
@@ -206,9 +163,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // ========================================
+
     // Table Row Hover Effect
-    // ========================================
     const tableRows = document.querySelectorAll('.data-table tbody tr');
     
     tableRows.forEach(function(row) {
@@ -223,10 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
 });
 
-// ========================================
 // Utility Functions
-// ========================================
-
 /**
  * Show notification message
  * @param {string} message - The message to display

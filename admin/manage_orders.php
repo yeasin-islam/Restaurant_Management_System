@@ -1,9 +1,4 @@
 <?php
-/**
- * Manage Orders Page
- * Admin can view all orders and update their status
- * Shows order details including items and customer information
- */
 
 // Include database configuration
 require_once '../config/db.php';

@@ -1,9 +1,4 @@
 <?php
-/**
- * Feedback Page
- * Allows users to submit ratings and reviews
- * Displays previously submitted feedback
- */
 
 // Include database configuration
 require_once '../config/db.php';

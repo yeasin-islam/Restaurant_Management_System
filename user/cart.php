@@ -1,9 +1,4 @@
 <?php
-/**
- * Shopping Cart Page
- * Manages user's shopping cart using PHP sessions
- * Allows adding, updating, removing items and checkout
- */
 
 // Include database configuration
 require_once '../config/db.php';

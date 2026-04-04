@@ -1,9 +1,4 @@
 <?php
-/**
- * User Orders Page
- * Displays all orders placed by the logged-in user
- * Shows order history with details and status
- */
 
 // Include database configuration
 require_once '../config/db.php';

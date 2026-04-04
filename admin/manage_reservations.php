@@ -1,8 +1,4 @@
 <?php
-/**
- * Manage Reservations Page
- * Admin can view all table reservations and approve/reject them
- */
 
 // Include database configuration
 require_once '../config/db.php';

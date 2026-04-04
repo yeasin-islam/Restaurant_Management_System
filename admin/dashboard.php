@@ -1,9 +1,4 @@
 <?php
-/**
- * Admin Dashboard Page
- * Shows overview statistics and recent activity
- * Only accessible by admin users
- */
 
 // Include database configuration
 require_once '../config/db.php';

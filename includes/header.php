@@ -1,9 +1,4 @@
 <?php
-/**
- * Header Component
- * Contains the HTML head section with meta tags and stylesheets
- * This can be included at the top of pages for consistency
- */
 
 // Include database configuration if not already included
 if (!isset($conn)) {
